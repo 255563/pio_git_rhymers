@@ -1,5 +1,13 @@
 package edu.kis.vh.nursery;
 
+/**
+ * Podstawowa implementacja rymowanki liczącej, działająca jak stos liczb całkowitych
+ * o stałej pojemności.
+ * Elementy są dodawane metodą countIn(int) i zdejmowane metodą
+ * countOut() zgodnie z zasadą LIFO (Last In, First Out). Dla pustej
+ * struktury metody odczytujące zwracają wartość -1.
+ */
+
 public class DefaultCountingOutRhymer {
 
     private int[] numbers = new int[12];
