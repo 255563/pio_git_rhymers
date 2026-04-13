@@ -1,1 +1,18 @@
-.idea
+# Eclipse / IDE
+.project
+.classpath
+.settings/
+.idea/
+
+# Foldery kompilacji / build
+bin/
+target/
+
+# Pliki tymczasowe
+*.log
+*.tmp
+*.bak
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
